@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Лабораторная работа 6 Приложение.exe" version="1.0.0.0" publicKeyToken="076112145f3ef890" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Лабораторная работа 6 Приложение" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Лабораторная работа 6 Приложение.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Параметры манифеста UAC
+          Если нужно изменить уровень контроля учетных записей Windows, замените 
+          узел requestedExecutionLevel одним из следующих значений.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+        Если нужно использовать виртуализацию файлов и реестра для обратной
+             совместимости, удалите узел requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Лабораторная работа 6 Приложение.exe" size="757176">
+      <assemblyIdentity name="Лабораторная работа 6 Приложение" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>GbdZj+z/9lfFM03PCnrUW2w3IKnE40LmaSOQZ2C1njE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Лабораторная работа 6 Приложение.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Vlad\Vladislav" issuerKeyHash="c976cd1c0c7b6684718d55eeb5eef655e105de1b" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>AKZy/g+kSFqnYF7oBU6km95S7T8uI+98E8ZTuphI11w=</DigestValue></Reference></SignedInfo><SignatureValue>iAy5ekVsoW2lCFVSSHpF+QygNhSRZOCNwoFaZAKqkyO/OVS7EZt1OS16RyxOniAgEKL7otEK+4Q+ZwSDzFKhEvzkHZd++4kHRJmFstLDNB/6D1/ePPx1Y3+OllCMxXlmVm6z0NwqxxXjmsxwlIiIkLPzMaqhls+dzDZBQ6IvmWU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>pBmllKp2n12NWSPAOypc9FSrHw4nyv+gNHL4KlktSDIXy+QvIUYbpFrGdEs/USXzIyLa2BzfYTtnWpcqrbcsqjhuHLZzG9vnh3mi5/wqVYnWzlgwZkRd+5aecV7HUp+BZ2lnTX80cgTdhYCubqxzNWUtmnvbSUjDqSo7nqy2yZE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="5cd74898ba53c6137cef232e3fed52de9ba44e05e85e60a75a48a40ffe72a600" Description="" Url=""><as:assemblyIdentity name="Лабораторная работа 6 Приложение.exe" version="1.0.0.0" publicKeyToken="076112145f3ef890" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Vlad\Vladislav</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>nHrM8Aw2nVYiE/S/1zfMsGI+kCJ9gOj2M6Gh1sKGVYA=</DigestValue></Reference></SignedInfo><SignatureValue>hcS2OKPwC4kvdcD9vvWY/S3Gq7lvQ7GSGFewzfWcsoo89YI4EzUPXbDjxiEPYru3LKKgcncKl5S3yGRB8aCOplHQ7n9jiRCgFeOMJvpj448pXu/ascsj+cPSKeGs4/jxBfBp40whSoKo51+dYGjhApQJIgIF/EE1qaUamMsZbZY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>pBmllKp2n12NWSPAOypc9FSrHw4nyv+gNHL4KlktSDIXy+QvIUYbpFrGdEs/USXzIyLa2BzfYTtnWpcqrbcsqjhuHLZzG9vnh3mi5/wqVYnWzlgwZkRd+5aecV7HUp+BZ2lnTX80cgTdhYCubqxzNWUtmnvbSUjDqSo7nqy2yZE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQbBRKtw6347dFUP+2IJIm5DANBgkqhkiG9w0BAQsFADAnMSUwIwYDVQQDHhwAVgBsAGEAZABcAFYAbABhAGQAaQBzAGwAYQB2MB4XDTI0MTIxODIxMDcxMFoXDTI1MTIxOTAzMDcxMFowJzElMCMGA1UEAx4cAFYAbABhAGQAXABWAGwAYQBkAGkAcwBsAGEAdjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEApBmllKp2n12NWSPAOypc9FSrHw4nyv+gNHL4KlktSDIXy+QvIUYbpFrGdEs/USXzIyLa2BzfYTtnWpcqrbcsqjhuHLZzG9vnh3mi5/wqVYnWzlgwZkRd+5aecV7HUp+BZ2lnTX80cgTdhYCubqxzNWUtmnvbSUjDqSo7nqy2yZECAwEAATANBgkqhkiG9w0BAQsFAAOBgQCTtjzJZDvdG6ZtNS2JeGHuXlj+elhO8obJYKUYj8KpQnHCoYADZvZu46eX3Ba43ovfVP6dOCx0ERZVbCnF+LslncuTCZa41mt+HYraNFTFTST1An4zuThoX8nE/dSdrnnXaDbP9dySd9cpfOVCu9lp4YxpOVztTpGUDef/0TifCA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
